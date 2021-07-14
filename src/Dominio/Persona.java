@@ -1,12 +1,12 @@
 
 package Dominio;
 
-public class Empleado {
+public class Persona {
   private String nombre;
-  private Fecha fechaN;
-  private Fecha fechaI;
+  private Fechaempleado fechaN;
+  private Fechaempleado fechaI;
 
-    public Empleado(String nombre, Fecha fechaN, Fecha fechaI) {
+    public Persona(String nombre, Fechaempleado fechaN, Fechaempleado fechaI) {
         this.nombre = nombre;
         this.fechaN = fechaN;
         this.fechaI = fechaI;
@@ -16,11 +16,11 @@ public class Empleado {
         return nombre;
     }
 
-    public Fecha getFechaN() {
+    public Fechaempleado getFechaN() {
         return fechaN;
     }
 
-    public Fecha getFechaI() {
+    public Fechaempleado getFechaI() {
         return fechaI;
     }
   @Override

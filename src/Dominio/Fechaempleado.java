@@ -1,12 +1,12 @@
 
 package Dominio;
 
-public class Fecha {
+public class Fechaempleado {
     private int anio;
     private int mes;
     private int dia;
 
-    public Fecha(int anio, int mes, int dia) {
+    public Fechaempleado(int anio, int mes, int dia) {
         this.anio = anio;
         this.mes = mes;
         this.dia = dia;
